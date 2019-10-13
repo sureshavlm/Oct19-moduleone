@@ -1,0 +1,2 @@
+John,Male,128000,TX
+Sue,Female,120000,NY
