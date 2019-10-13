@@ -1,5 +1,7 @@
 var http = require('http');
 
+console.log("Request received on ", new Date());
+
 var server = http.createServer(function(request, response) {
 				response.writeHead(200, { 'Content-Type': 'text/plain'});
 				response.end('Now the application is ready to pick live code updates.'); //sends data to client
